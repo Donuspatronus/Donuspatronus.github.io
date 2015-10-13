@@ -1,0 +1,186 @@
+#Principal {
+    width: 80%;
+    margin: 0 auto;
+    //background: black;
+}
+
+#Encabezado {
+    background: rgba(217,216,216,0.4);
+    height: 150px;
+    border-radius: 15px;
+}
+
+#Encabezado2 {
+    background: rgba(217,216,216,0.4);
+    height: 100%;
+    border-radius: 15px;
+	padding:10px 10px 10px 10px;
+}
+#Encabezado2 p,h1,h2,h3,li{
+    padding: 10px 10px 10px 10px;
+	color:white;
+}
+
+#Encabezado2 p,li{
+    text-align: justify;
+}
+
+
+#Encabezado h1{
+    text-align: center;
+    margin-top: 30px;
+    padding-top: 60px;
+}
+
+#Navegacion ul{
+    margin: 0;
+    padding: 0;
+    padding-bottom: 100px;
+    list-style: none;   
+}
+
+#Navegacion ul li{
+    float: left;
+    padding-right: 30px;
+    width: 100px;
+    text-align: center;
+}
+
+#Navegacion ul li a{
+    color: white;
+}
+
+p{
+    color: white;
+}
+
+#Navegacion ul a{
+    height: 35px;
+    display: block;
+    text-decoration: none;
+    font-size: 15pt;
+    font-weight: bold;
+    background: rgba(23,5,166,0.6);
+    /*background: #006699;*/
+    border-radius: 10px;
+    color: black;
+    font-weight: lighter;
+}
+
+#Navegacion a{
+    padding-top: 12px;    
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 8px;
+}
+
+#Navegacion a:hover{
+    background: radial-gradient(circle, rgb(23,5,2166,0.2),#006699);
+    color: black;
+    -webkit-transform:scale(1.1);
+    transition: background-color 4s linear;
+    box-shadow: rgb(255,255,255) 0px 0px 50px;
+    font-weight: lighter;
+
+}
+
+#Secundario {
+    width: 23%;
+    height: 500px;
+    //border: 2px solid red;
+    border-radius: 10px;
+    box-shadow: rgb(255,255,255) 0px 0px 50px;
+    margin-left: 77.5%;
+    margin-top: -46%;
+    background: radial-gradient(circle,rgba(255,255,255,1.5),#006699);     
+}
+
+#Pie {
+    margin-top: 100px;
+    margin-bottom: 20px;
+//    border: 2px solid blue;
+}
+
+#Encabezado h1{
+    color: white;
+}
+
+#Encabezado2 h1{
+    color: white;
+}
+
+#Contenido p{
+    color: black;
+    font-size: 15pt;
+    font-weight: bold;
+    color: white;
+    font-weight: 100;
+    text-align: justify;
+}
+
+#Contenido{
+    padding-top: 50px;
+    margin-top: 60px;
+    width: 95%;
+    margin: 0 auto;
+    margin-top: 80px;
+    border: 2px solid black;
+    background: radial-gradient(circle,rgba(255,255,255,0.2),#1978F3);
+    border-radius: 20px;
+}
+
+#Secundario img{
+    margin-left: 830px;
+    margin-top: -600px;
+    width: 300px;
+}
+
+#Pie p{
+    color: white;      
+}
+
+
+@font-face{
+    font-family: 'Andrew';
+    src: url('fuentes/AndrewScript.TTF');
+}
+
+#Contenido p{
+    font-family: 'Andrew';
+    color: white;
+    font-weight: lighter;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#total {
+    background:black url(../imagenes/Aurora_Borealis__Wallpaper_by_titusboy25.jpg)repeat-x;
+}
+
+#Contenido img{
+    margin-left: 40px;
+    border-radius: 20px;
+    margin-bottom: 40px;
+}
+
+#Contenido h1,h2{
+    margin-left: 150px;
+}
+
+@font-face{
+    font-family: 'funy';
+    src: url('fuentes/Action Jackson.TTF');
+}
+
+ul li a{
+    font-family: 'funy';
+}
+
+#Contenido img:hover{
+    -webkit-transform: scale(1.5);
+    border: solid white 2px;
+    
+@font-face{
+    font-family: 'Explosive';
+    src: url('Explosive.TTF');
+}
