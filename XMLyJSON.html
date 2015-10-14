@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html id="total">
+    <head>
+         <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>XML y JSON!</title>
+        <link rel="stylesheet" href="../recursos/css/EstiloInicio.css">
+    </head>
+    <body id="Principal">
+        <header id="Encabezado">
+            <h1>XML y JSON</h1>
+        </header>
+        <nav id="Navegacion">
+            <ul>
+                <li><a href="..\index.html">Inicio</a></li>
+                <li><a href="..\Tareas.html">Tareas</a></li>
+            </ul>
+        </nav>
+        <section id="Encabezado2">
+               <h1>NovaUniversitas</h1>
+               <h2>Licenciatura en Informática</h2>
+               <p>
+                   A continuacion se presentan los origenes de lo que es XML y JSON, asi como sus aplicaciones, ejemplos, ventajas y desventajas de cada una de estas tecnologias. Se pretende obtener un conocimiento mas amplio de las tecnologias mencionadas anteriormente, asi como una opinion mas clara de cada una.
+                </p>
+
+                <h3>XML</h3>
+                <li>Origenes</li>
+                <p>
+                    XML proviene de un lenguaje inventado por IBM en los años setenta, llamado GML (Generalized Markup
+                    Language), que surgió por la necesidad que tenía la empresa de almacenar grandes cantidades de
+                    información. Este lenguaje gustó a la ISO, por lo que en 1986 trabajaron para normalizarlo, creando SGML
+                    (Standard Generalized Markup Language), capaz de adaptarse a un gran abanico de problemas. A partir de
+                    él se han creado otros sistemas para almacenar información.
+                    Este lenguaje se definió en el marco de SGML y fue de lejos la aplicación más conocida de este estándar.
+                    Otra limitación del HTML es que cada documento pertenece a un vocabulario fijo, establecido por el DTD. No
+                    se pueden combinar elementos de diferentes vocabularios. Asimismo es imposible para un intérprete (por
+                    ejemplo un navegador) analizar el documento sin tener conocimiento de su gramática (del DTD). Por ejemplo,
+                    el navegador sabe que antes de una etiqueta div debe haberse cerrado cualquier p previamente
+                    abierto. Los navegadores resolvieron esto incluyendo lógica ad hoc para el HTML, en vez de incluir un
+                    analizador genérico. Ambas opciones, de todos modos, son muy complejas para los navegadores.
+                    Se buscó entonces definir un subconjunto del SGML que permita:</p>
+                    <ul>
+                        <li>Mezclar elementos de diferentes lenguajes. Es decir que los lenguajes sean extensibles.</li>
+                        <li>La creación de analizadores simples, sin ninguna lógica especial para cada lenguaje.</li>
+                        <li>Empezar de cero y hacer hincapié en que no se acepte nunca un documento con errores de sintaxis.</li>
+                    </ul>                    
+                
+                <p>
+                    Para hacer esto XML deja de lado muchas características de SGML que estaban pensadas para facilitar la
+                    escritura manual de documentos. XML en cambio está orientado a hacer las cosas más sencillas para los
+                    programas automáticos que necesiten interpretar el documento.
+                </p>
+                <li>Aplicaciones</li>
+                <ul>
+                    <li>Publicar e intercambiar contenidos de bases de datos.</li>
+                    <li>Formatos de mensaje para comunicación entre aplicaciones (B2B)</li>
+                    <li>Descripción de metacontenidos.</li>
+                </ul>
+                <li>Ejemplo</li>
+                <img src="../recursos/imagenes/ejemploxml.png">
+                <li>Ventajas</li>
+                 <ul>
+                    <li>Fácilmente procesable tanto por humanos como por software.</li>
+                    <li>Separa radicalmente la información o el contenido de su presentación o formato.</li>
+                    <li>Diseñado para ser utilizado en cualquier lenguaje o alfabeto.</li>
+                    <li>Su análisis sintáctico es fácil debido a las estrictas reglas que rigen la composición de un documento.</li>
+                    <li>Estructura Jerárquica</li>
+                    <li>El número de marcas es ilimitado</li>
+                </ul>
+                <li>Desventajas</li>
+                <p>La posibilidad de construir sistemas acordes a nuestras necesidades para el intercambio de datos podría llevarnos a la proliferación de versiones incompatibles y si esto llegase a suceder, entonces la solución que plantea el XML ante la búsqueda de intercambio universal de información, lo llevaría a su opuesto; en vez de unificar todo un lenguaje, nos encontraríamos con lenguajes muy específicos y cada vez más alejados de la “universalidad”.
+                </p>
+                <br><br><br><br>
+                <h3>JSON</h3>
+                <p>
+                    JSON (JavaScript Object Notation) es un formato ligero para el intercambio de datos. JSON es un subconjunto de la notación de JavaScript que no requiere el uso de XML.
+                    La simplicidad de JSON ha dado lugar a la generalización de su uso, especialmente como alternativa a XML en AJAX. Una ventaja de JSON sobre XML como formato de intercambio de datos en este contexto es que es mucho más sencillo de escribir sintáctico (parser) de JSON.
+                    JSON se emplea habitualmente en entornos donde el tamaño del flujo de datos entre cliente y servidor es de vital importancia por Yahoo, Google, etc, que atienden a millones de usuarios) cuando la fuente de datos es explícitamente de fiar y donde no dispone de procesamiento XSLT para manipular los datos en el cliente.
+                    <br><br>
+                    Deriva de los Objetos Literales de Javascript y está definido en la tercera edición del estándar de Lenguaje de programación ECMAScript [ECMA].
+                    JSON puede representar cuatro tipos primitivos(cadenas, números, booleanos, valores nulos) y dos tipos estructurados(objetos y arreglos).                    
+                </p>
+                <li>Ejemplos</li>
+                Acceso de datos usando XMLHttpRequest<br>
+                <img src="../recursos/imagenes/ejemplojson.png">
+                <li>Ventajas</li>
+                <ul>
+                    <li>Formato sumamente simple</li>
+                    <li>Velocidad de procesamiento alta</li>
+                    <li>Archivos de menor tamaño</li>
+                </ul>
+                <li>Desventajas</li>
+                <ul>
+                    <li>Tiene uns estructura enredosay dificil de interpretar a simple vista</li>
+                </ul>
+        </section>
+        <footer id="Pie">
+            <p>© CDSS</p>
+        </footer>
+    </body>
+</html>
